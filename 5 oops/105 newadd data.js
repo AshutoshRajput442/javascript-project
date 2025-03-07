@@ -25,3 +25,4 @@ obj2.key3 = "value3";
 console.log(obj2.key2); // Output: "value2" (comes from obj1)
 console.log(obj2.key3); // Output: "value3" (comes from obj2)
 console.log(obj2); // Output: { key3: 'value3' }, but it has access to obj1's keys via prototype
+hello

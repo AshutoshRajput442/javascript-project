@@ -35,4 +35,4 @@ const person = {
 
 person.about(person);
 
-
+  

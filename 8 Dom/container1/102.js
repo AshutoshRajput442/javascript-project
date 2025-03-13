@@ -56,8 +56,6 @@ for(let i=0;i<anchor_tagName_color.length;i++){
 
 
 
-
-
 /*
 
 //------------  nav var  background color change-----   using QuerySelectorAll name ----------

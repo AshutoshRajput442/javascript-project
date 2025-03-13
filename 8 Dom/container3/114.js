@@ -34,7 +34,7 @@ const element = document.createElement("li")
 element.textContent = "Hello and Welcome"
 
 
-const element_clone = element.cloneNode(true);
+const element_clone = element.cloneNode(true);   // for deep cloning
 
 
 todo_item.append(element)

@@ -6,7 +6,8 @@
 
 const section = document.querySelector(".section-todo")
 console.log(section)
-console.log(section.classList)
+console.log(section.innerHTML)
+console.log(section.classList)    // 3   bg-clolor extra add kri hai niche
 console.log(section.className)
 
 
@@ -16,13 +17,13 @@ section.classList.remove("bg-color")
 
 
 
-//  -------------------------------    class exits or not   true and false return krega
+//  ---------------contains----------------    class exits or not   true and false return krega
 const ans = section.classList.contains("bg-color")
 console.log(ans)
 
 
 
-//---------------------------------bg-color class hai to remove ker dega 
+//--------------toggle-------------------bg-color class hai to remove ker dega 
 //---------------------------------nhi h to add ker dega
 section.classList.toggle("bg-color")
 
@@ -38,7 +39,7 @@ inhtml.innerHTML += "<li> learn java</li>"
 inhtml.innerHTML += "<li> Learn go</li>"
 console.log(inhtml)
 
-//---------//////////        other way to add items ---------------
+//---------//////////        other way to add items -------appen kerdo--------
 
 // 0. kisme add kerna hai uski class ka name 
 // 1. jo add kerna hai wo likho 

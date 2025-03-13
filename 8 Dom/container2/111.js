@@ -60,7 +60,9 @@ console.log(headnode0.nextSibling.nextSibling.nextSibling)   //null
 
 //--------------head ke child--------------------------------
 
-console.log("head ke child ",html_element_rootNode[0].childNodes)
+
+const head_ka_child = html_element_rootNode[0].childNodes
+console.log("head ke child ",head_ka_child)
 
 
 
